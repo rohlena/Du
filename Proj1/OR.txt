@@ -1,0 +1,13 @@
+MobileTesting=//a[@text()='MOBILE TESTING'""]
+EmailTextBox = philadelphia-field-email
+
+SignUpButton = philadelphia-field-submit
+
+lnkPrihlasit = //*[@id='lblLogin']
+frmLogin = //*[@id="loginIframe"]
+txbUserName = //*[@id='userName']
+impEmail = //*[@class='login-body']/*[@class='form-group mt-4']/*[@id='userName'][@class='form-control']
+txbPass = //input[@id='password'][@class='form-control']
+btnPrihlasit = //button[@type='submit'][@class='btn btn-login mt-2']
+errLblPass = //div[@class='text-center']/span[@class='text-danger font-sm field-validation-error'][@data-valmsg-for='Username'][@data-valmsg-replace='true']
+lnkMojeAlza = //*[@id="lblMujUcet"]
